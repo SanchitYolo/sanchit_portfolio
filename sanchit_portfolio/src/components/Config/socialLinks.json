@@ -1,0 +1,34 @@
+{
+    "socialLinks": [
+        {
+            "category": "E-mail",
+            "href": "mailto:yolosanchit@gmail.com",
+            "altName": "yolosanchit",
+            "iconClass": "fa-solid fa-envelope"
+        },
+        {
+            "category": "Linkedin",
+            "href": "https://www.linkedin.com/in/yolosanchit/",
+            "altName": "yolosanchit",
+            "iconClass": "fa-brands fa-linkedin"
+        },
+        {
+            "category": "Github",
+            "href": "https://github.com/SanchitYolo",
+            "altName": "SanchitYolo",
+            "iconClass": "fa-brands fa-github"
+        },
+        {
+            "category": "Facebook",
+            "href": "https://www.facebook.com/sanchitgoyal1994",
+            "altName": "sanchitgoyal1994",
+            "iconClass": "fa-brands fa-facebook"
+        },
+        {
+            "category": "Twitter",
+            "href": "https://twitter.com/Sanchit09971099",
+            "altName": "yolosanchit",
+            "iconClass": "fa-brands fa-twitter"
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+$color-white: #fff;
+$color-white-light: rgba(255, 255, 255, 0.7);
+$color-black: #000;
+$color-black-light: rgba(0, 0, 0, 0.7);
+$color-shadow: rgba(0, 0, 0, 0.3);
+$color-gray: #999;
+$color-gray-light: #ddd;
+
+#main-content::before {
+    content: "";
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-me,
+.portfolio,
+.skills-to-offer,
+.contact {
+    .main-title {
+        text-shadow: 4px 4px 3px $color-shadow;
+        -webkit-text-stroke: 1px $color-white-light;
+    }
+    min-height: 100vh;
+    margin-left: 25vw;
+    &-block {
+        padding: 3em;
+    }
+    .headline {
+        margin-top: 1em;
+    }
+    .sub-headline {
+        margin-top: 0.5em;
+    }
+}
+
+.portfolio,
+.skills-to-offer,
+.contact {
+    background: $color-white;
+}
+
+.about-me {
+    color: $color-white-light;
+    &__profile {
+        
+        .name {
+            font-family: "Sacramento", cursive;
+            font-size: 4em;
+            text-shadow: -5px 5px 2px $color-black-light;
+        }
+        .headline {
+            margin-top: 0.5em;
+            font-size: 2em;
+            text-shadow: 4px 4px 4px $color-black;
+        }
+        .sub-headline {
+            margin-top: 1em;
+            font-size: 1.5em;
+        }
+    }
+    .text-animation {
+        
+        .text {
+            display: none;
+            opacity: 0;
+            &.is-visible {
+                display: inline;
+                opacity: 1;
+            }
+        }
+    }
+    .post-text {
+        font-family: "Sacramento";
+        b {
+            color: white;
+        }
+    }
+    &__details {
+        text-shadow: 1px 2px 5px $color-black-light;
+        font-size: 1.25em;
+        margin-top: 2em;
+        text-indent: 5em;
+    }
+}
+
+.portfolio {
+    .download-portfolio {
+        padding: 0.25em 0.5em;
+        border-radius: 1em;
+        background-color: $color-gray-light;
+        &:focus,
+        &:hover {
+            background-color: $color-gray;
+        }
+        .icon {
+            margin-right: 0.5em;
+        }
+    }
+}
+
+.contact {
+    .social {
+        &-links {
+            margin-top: 2em;
+        }
+        &-link {
+            padding: 0.25em;
+            &__title {
+                width: 8em;
+            }
+            &__href {
+                &:focus,
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        &-icon {
+            display: inline-block;
+            width: 1em;
+            margin-right: 0.5em;
+        }
+    }
+}

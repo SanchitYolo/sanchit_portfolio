@@ -1,0 +1,94 @@
+{
+    "projects": [
+        {
+            "date": "Sept19 - Now",
+            "title": "Senior Front End Developer - (Publicis Sapient)",
+            "description": "Presently, I am designing User Interfaces for a tech giant that are cross browser compatible & responsive.",
+            "pointers": [
+                "Designed mega features for Tapestry/Coach that are reusable across multiple domains and supported in a range of devices with cross browser compatibility.",
+                "Developed many common utilities and featues that are used by fellow teammates across multiple domains",
+                "Took care of performance by implementing lazy-loading,throttling,debouncing,etc.",
+                "Participated in design & code reviews to build robut applications & prototypes"
+            ],
+            "techUsed": [
+                "Javascript",
+                "ES6 above",
+                "React",
+                "JSX",
+                "HTML5",
+                "CSS3",
+                "SCSS",
+                "Bootstrap",
+                "jQuery",
+                "ISML",
+                "Salesforce(SFCC)"
+            ]
+        },
+        {
+            "date": "Oct19 - Aug20",
+            "title": "Front End Developer - (Publicis Sapient)",
+            "description": "Designed User Interfaces for E-commerce giants that were cross browser compatible & responsive. Also, developed many reusable components that were used by fellow teammates.",
+            "pointers": [
+                "Developed multiple scalable/reusable features for Marriott International and enhanced application performance by reducing TLS handshake time b/w ajax calls by warming up pods on scaling.",
+                "Revamped Cartier application, making production ready keeping in mind the tight timelines."
+            ],
+            "techUsed": [
+                "Javascript",
+                "ES6 above",
+                "HTML5",
+                "CSS3",
+                "SCSS",
+                "Bootstrap",
+                "jQuery",
+                "underscore",
+                "hbs"
+            ]
+        },
+        {
+            "date": "July17 - Oct19",
+            "title": "Senior System Engineer - (Infosys)",
+            "description": "Partnered with Team Leads and Product Owners to design and develop robust Banking solutions that was highly performant, cross-browser compatible and responsive.",
+            "pointers": [
+                "Developed responsive, accessible & performant User Interfaces that were functional across major browsers and devices.",
+                "Enhanced application for performance by implementing Throttling,Debouncing,Event-Delegation,etc. and took care of Accessibility",
+                "Implemented SMS banking in server side using tech-stack Node.js & Express.js"
+            ],
+            "techUsed": [
+                "Javascript",
+                "ES6",
+                "HTML5",
+                "CSS3",
+                "MDL",
+                "jQuery",
+                "lodash",
+                "Polymer.js",
+                "Node.js",
+                "Express.js"
+            ]
+        },
+        {
+            "date": "Jan17 - May17",
+            "title": "Internship - (Infosys)",
+            "description": "During my Interniship at Infosys,I was trained on various front-end & back-end technologies and also got a chance to build up a project on Machine Learning",
+            "pointers": [
+                "Designed an application that predicted a winner of a cricket match based on various factors.",
+                "Performed Data Sanity and used Machine Learning(Regression Model) to train the models for the use case.",
+                "Gained knowledge of Regression models & various Python libraries (Numpy, Pandas, Matplotlib, Scikit Learn)"
+            ],
+            "techUsed": [
+                "Javascript",
+                "HTML5",
+                "CSS3",
+                "Bootstrap",
+                "Angular.js",
+                "Python",
+                "Scikit-Learn",
+                "Numpy",
+                "Pandas",
+                "Matplotlib",
+                "Java",
+                "SQL"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+$timeline-date-w: 8em;
+
+.timeline-block {
+    margin-top: 2em;
+    .timeline-el {
+        display: flex;
+        &:last-of-type {
+            .project__tech-skills {
+                border-bottom: none;
+                margin-bottom: 0;
+            }
+        }
+        &__date {
+            min-width: $timeline-date-w;
+            padding-right: 1em;
+            color: #999;
+            border-right: 1px solid #ddd;
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 0.5em;
+                height: 0.5em;
+                background-color: black;
+                transform: translateX(50%);
+            }
+            .project-date {
+                margin-top: -0.5rem;
+            }
+        }
+        &__content {
+            width: calc(100% - #{$timeline-date-w});
+            margin-top: -0.5rem;
+            padding-left: 2em;
+            .project {
+                &__desc {
+                    margin-top: 0.5em;
+                }
+                &__desc-pointers {
+                    list-style: disc;
+                    margin-top: 1em;
+                    padding-left: 2em;
+                }
+                &__tech-skills {
+                    margin-top: 1em;
+                    padding-left: 2em;
+                    padding-bottom: 2em;
+                    margin-bottom: 2em;
+                    border-bottom: 1px solid #ddd;
+                    .skill {
+                        margin: 0.5em 0.5em 0 0;
+                    }
+                }
+            }
+        }
+        &__birth {
+            position: absolute;
+            left: $timeline-date-w;
+            transform: translateX(-50%);
+            .birth-date {
+                padding-right: 1em;
+                color: grey;
+            }
+            .icon {
+                font-size: 2rem;
+                padding-right: 0.5em;
+            }
+        }
+    }
+}
