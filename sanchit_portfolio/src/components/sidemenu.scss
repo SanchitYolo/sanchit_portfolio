@@ -1,0 +1,78 @@
+.sidemenu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 25vw;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.7);
+    &__inner {
+        overflow-y: auto;
+        height: 100%;
+        padding: 2rem;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    a {
+        color: rgba(255, 255, 255, 0.7);
+    }
+}
+
+.person__inner {
+    .name {
+        margin-top: 1rem;
+        color: white;
+    }
+    .designation {
+        margin-top: 0.5rem;
+    }
+    .person {
+        &__more-details {
+            font-size: 14px;
+            margin: 1rem 2rem 0;
+        }
+    }
+}
+
+#sidemenu-navbar,
+#sidemenu-social {
+    margin-top: 4rem;
+    margin-left: 20%;
+    a {
+        &:focus,
+        &:hover,
+        &:active,
+        &.active {
+            color: white;
+        }
+    }
+}
+
+.navbar-link {
+    padding: 0.25rem 0;
+    .active::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        border: 10px solid transparent;
+        border-right: 10px solid white;
+    }
+    .download-cv {
+        padding-right: 0.5rem;
+    }
+}
+
+#sidemenu-social {
+    .social {
+        &__links {
+            margin-top: 0.5rem;
+        }
+        &__title {
+            color: cornflowerblue;
+        }
+        &-link {
+            margin-right: 1rem;
+        }
+    }
+}
